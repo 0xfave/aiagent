@@ -3,6 +3,7 @@
   "version": "0.1.9",
   "main": "src/index.ts",
   "type": "module",
+  "packageManager": "pnpm@8.15.4",
   "scripts": {
     "build": "tsup src/index.ts --format esm --dts",
     "start": "tsc && node --loader ts-node/esm src/index.ts",
